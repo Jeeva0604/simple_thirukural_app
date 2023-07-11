@@ -12,6 +12,11 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+              bottomRight: Radius.circular(30),
+              bottomLeft: Radius.circular(30)),
+        ),
         title: const Text(
           'குறள் தேடல்',
           style: TextStyle(

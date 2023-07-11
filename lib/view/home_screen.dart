@@ -19,6 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(30),
+                bottomLeft: Radius.circular(30)),
+          ),
           actions: [
             IconButton(
               onPressed: () {},
@@ -78,6 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           bottom: const TabBar(
             indicatorColor: Colors.white,
+            indicatorWeight: 3,
             tabs: [
               Tab(
                 text: ('அறம்'),

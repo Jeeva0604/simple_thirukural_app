@@ -12,6 +12,11 @@ class _AthikarankalScreenState extends State<AthikarankalScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+              bottomRight: Radius.circular(30),
+              bottomLeft: Radius.circular(30)),
+        ),
         title: const Text('அதிகாரங்கள்'),
       ),
     );
