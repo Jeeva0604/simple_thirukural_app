@@ -14,8 +14,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
       appBar: AppBar(
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
-              bottomRight: Radius.circular(30),
-              bottomLeft: Radius.circular(30)),
+            bottomRight: Radius.circular(30),
+            bottomLeft: Radius.circular(30),
+          ),
         ),
         title: const Text('அமைப்புகள்'),
       ),
